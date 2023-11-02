@@ -31,7 +31,7 @@ nav li:not(:first-child) {
     justify-content: center;
     align-items: center;
 
-    transition: margin 0.350ms;
+    transition: margin;
 }
 
 nav li:not(:first-child):hover {
@@ -112,9 +112,9 @@ main article:nth-child(3) section:nth-child(2) button {
     background-color: black;
     color: white;
     width: 30%;
-    transition: background-color 0.350ms;
-    transition: margin-top 0.350ms;
-    transition: margin-bottom 0.350ms;
+    transition: background-color 350ms ease-in-out;
+    transition: margin-top 350ms ease-in-out;
+    transition: margin-bottom 350ms ease-in-out;
 }
 
 main article:nth-child(3) section:nth-child(2) button:hover {
